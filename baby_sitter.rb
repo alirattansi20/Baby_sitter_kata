@@ -4,4 +4,13 @@
 # Start time is always before mid night
 # End time is always after mid night
 class Babysitter
+    attr_reader :start_time
+    
+    def initialize
+    
+        @start_time = 0
+    
+    end
+
 end
+

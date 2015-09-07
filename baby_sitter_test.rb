@@ -8,7 +8,12 @@ require_relative 'baby_sitter'
 
 describe "Baby sitter class" do
     let(:babysitter) { Babysitter.new}
+    
     it "is an instance of the baby sitter class" do 
         expect(babysitter).to be_a Babysitter
+    end
+
+    it "should have an initil start time of zero"do
+        expect(babysitter.start_time).to eq(0)
     end
 end
