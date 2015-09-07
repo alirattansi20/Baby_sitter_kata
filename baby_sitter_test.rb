@@ -13,7 +13,7 @@ describe "Baby sitter class" do
         expect(babysitter).to be_a Babysitter
     end
 
-    it "should have an initil start time of zero"do
+    it "should have an initial start time of zero"do
         expect(babysitter.start_time).to eq(0)
     end
 end
